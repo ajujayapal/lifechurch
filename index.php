@@ -7,8 +7,8 @@
 
 <script type="text/javascript" src="scripts/initializeMap.js"></script>
 
-<div class="container">
-    <div class="carousel slide hidden-md-down" data-ride="carousel" id="lifechurch-carousel">
+<!--<div class="container">-->
+    <div class="carousel slide" data-ride="carousel" id="lifechurch-carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li class="active" data-slide-to="0" data-target="#lifechurch-carousel"></li>
@@ -17,30 +17,37 @@
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img alt="..." src="images/banner/banner_yellowflower_1200x315.png">
+            <div class="carousel-item item slide1 active">
+                <img class="d-block img-fluid" alt="..." src="images/banner/banner_yellowflower_1200x315.png" height="100%">
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img alt="..." src="images/banner/banner_dognearpool_1200x315.png">
+            <div class="carousel-item item slide2">
+                <img class="d-block img-fluid" alt="..." src="images/banner/banner_dognearpool_1200x315.png">
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img alt="... " src="images/banner/banner_hills_1200x315.png">
+            <div class="carousel-item item slide3">
+                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
         </div>
         <!-- Controls -->
-        <a class="left carousel-control" data-slide="prev" href="#lifechurch-carousel" role="button"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" data-slide="next" href="#lifechurch-carousel" role="button"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        <a class="carousel-control-prev" href="#lifechurch-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#lifechurch-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
     <!-- Carousel -->
-</div>
+<!--</div>-->
 
 <!-- Content Area - widget boxes -->
 

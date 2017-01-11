@@ -17,6 +17,30 @@ html, body {
 }
 
 
+.carousel .item {
+    height: 375px !important;
+    background-color: bisque !important;
+}
+
+.slide1 {
+    background: url("http://jayapalan.com/lifechurch/images/banner/banner_yellowflower_1200x315.png") no-repeat !important;
+    background-size: cover;
+    
+}
+
+.slide2 {
+    background: url("http://jayapalan.com/lifechurch/images/banner/banner_dognearpool_1200x315.png") no-repeat;
+    background-size: cover;
+    
+}
+
+.slide3 {
+    background: url("http://jayapalan.com/lifechurch/images/banner/banner_hills_1200x315.png") no-repeat;
+    background-size: cover;
+    
+}
+
+
 .card-header {
     background-color: dodgerblue;
     color: white;
