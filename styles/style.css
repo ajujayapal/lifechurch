@@ -1,0 +1,178 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.page-header {
+  background-color: dodgerblue;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.navbar-light {
+  background-color: gainsboro;
+  border-color: gainsboro;
+}
+
+
+.card-header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.widget-box-area {
+  padding-top: 20px;
+}
+
+.widget-box {
+  background-color: gainsboro;
+  padding: 10px;
+  min-height: 300px;
+  /*max-height: auto;*/
+  /*max-height: 500px;*/
+  overflow: auto;
+  margin-bottom: 20px;
+
+}
+
+.image-width {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.staff-image-area {
+    text-align: center;
+}
+
+footer {
+  padding-top: 20px;
+  background-color: skyblue;
+  height: 60px;
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#map {
+
+  width: 100%;
+  height: 200px;
+
+}
+
+
+a.social-icon {
+  text-decoration: none;
+}
+
+.facebook-container {
+  width: 100%;
+  height: 100px;
+  padding: 8%;
+  text-align: center;
+  background-color: #3b5998;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.facebook-text {
+  font-family:'Segoe UI Historic', 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.twitter-container {
+  width: 100%;
+  height: 100px;
+  padding: 8%;
+  text-align: center;
+  background-color: #55ACEE;
+}
+
+.twitter-text {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.add-bottom-margin {
+  margin-bottom: 15px;
+}
+
+
+/* Calendar Style */
+
+#calendar-buttons-area {
+	text-align: center;
+	background-color: dodgerblue;
+}
+
+
+thead {
+  background-color: gray;
+}
+
+table td {
+  position: relative;
+  height: 130px;
+  max-width: 70px;
+  border: 1px solid black;
+}
+
+.date-cell {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 25px;
+  background-color: aqua;
+  color: black;
+  font-weight: 600;
+  padding-left: 4px;
+  
+}
+
+
+
+.not-this-month {
+	color: red;
+	background-color: lightgrey;
+}
+
+.event-item {
+  padding-top: 12px;
+}
+
+.event-item ul {
+  padding: 0;
+  margin: 0;
+}
+.event-item li {
+  border: 1px solid black;
+  border-top: 5px solid blue;
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+.event-item a {
+  font-size: 12px;
+}
