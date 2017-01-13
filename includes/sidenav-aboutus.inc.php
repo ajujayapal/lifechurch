@@ -12,12 +12,12 @@ $filename = $arr_filename[0]; //first element in the array is the filename
  ?>
 
 
-<div class="widget-box">
-	<div class="lead">
+<div class="widget widget-outline">
+	<div class="widget-header mb-2">
 		<strong>About Us</strong>
 	</div>
 
-	<nav class="nav nav-pills nav-stacked">
+	<nav class="nav nav-pills flex-column">
 		<a class="nav-link <?php if($filename == 'locationandtimes.php') {echo 'active';} ?>" href="locationandtimes.php">Location & Times</a>
 		<a class="nav-link <?php if($filename == 'imnew.php') {echo 'active';}?>" href="imnew.php">I'm New</a>
 		<a class="nav-link <?php if($filename == 'visionandmission.php') {echo 'active';}?>" href="visionandmission.php">Vision & Mission</a>

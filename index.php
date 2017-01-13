@@ -56,7 +56,7 @@
 	<div class="row">
   <div class="col-md-4">
 
-    <div class="widget widget-outline">
+    <div class="widget widget-outline widget-height">
       <div class="widget-header">
         <h4 class="widget-title">Welcome to Life Church</h4>
       </div>
@@ -73,7 +73,7 @@
   </div>
 
   <div class="col-md-4">
-    <div class="widget widget-outline">
+    <div class="widget widget-outline widget-height">
       <div class="widget-header">
         <h4 class="widget-title">I'm New</h4>
       </div>
@@ -87,7 +87,7 @@
   </div>
 
   <div class="col-md-4">
-    <div class="widget widget-outline">
+    <div class="widget widget-outline widget-height">
       <div class="widget-header">
         <h4 class="widget-title">Connect With Us</h4>
       </div>
@@ -116,7 +116,7 @@
 <div class="row mt-2">
   <div class="col-md-4">
 
-    <div class="widget widget-outline">
+    <div class="widget widget-outline widget-height">
       <div class="widget-header">
         <h4 class="widget-title">Upcoming Events</h4>
       </div>
@@ -145,7 +145,7 @@
   </div>
 
   <div class="col-md-4">
-    <div class="widget widget-outline">
+    <div class="widget widget-outline widget-height">
       <div class="widget-header">
         <h4 class="widget-title">Pastor's Blog</h4>
       </div>
@@ -156,7 +156,7 @@
   </div>
 
   <div class="col-md-4">
-    <div class="widget widget-outline">
+    <div class="widget widget-outline widget-height">
       <div class="widget-header">
         <h4 class="widget-title">Social Media</h4>
       </div>
