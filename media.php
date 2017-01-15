@@ -23,7 +23,7 @@
                     <button class="btn btn-primary play-button">Play Audio</button>
                 </div>
 
-                <div class="card-footer collapse">
+                <div class="card-footer audio-controls collapse">
                     <audio controls preload="none" style="width:100%;">
                         <source src="http://www.lifechurchinfo.org/Websites/lifechurchinfo/Blog/4348935/Sermon_12-4-16.m4a" type="audio/mp4" />
                         <p>Your browser does not support HTML5 audio.</p>
@@ -50,7 +50,7 @@
                     <button class="btn btn-primary play-button">Play Audio</button>
                 </div>
 
-                <div class="card-footer collapse">
+                <div class="card-footer audio-controls collapse">
                     <audio controls preload="none" style="width:100%;">
                         <source src="http://www.lifechurchinfo.org/Websites/lifechurchinfo/Blog/4348935/Sermon_11-27-16.m4a" type="audio/mp4" />
                         <p>Your browser does not support HTML5 audio.</p>
