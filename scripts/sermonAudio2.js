@@ -13,8 +13,6 @@ function audioToggle() {
 	var clickedAudioBox = getClickedAudioBox(this);
 	var clickedAudio = getClickedAudio(this);
 	
-	alert(clickedAudio.duration);
-	
 	if (!clickedAudio.paused) {
 		resetAudioElements();
 		clickedAudio.pause();
@@ -33,9 +31,6 @@ function audioToggle() {
 
 
 function resetAudioElements() {
-// pause all audio on page
-// collapse all audio boxes (boxes with audio controls) on page
-// set text for all audio buttons to "Play Audio"
 	
 	for (var i = 0; i < audios.length; i++) {
 		audios[i].pause();
@@ -52,11 +47,9 @@ function resetAudioElements() {
 }
 
 function getClickedAudio(clickedButton) {
-//get the audio related to the button that was clicked
 	return clickedButton.parentElement.nextElementSibling.childNodes.item(1);
 }
 
 function getClickedAudioBox(clickedButton) {
-//get the audio box related to the button that was clicked
 	return clickedButton.parentElement.nextElementSibling;
 }

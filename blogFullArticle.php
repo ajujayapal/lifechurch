@@ -7,7 +7,10 @@
 
 
 	<div class="jumbotron center-text">
-		<h1>blog.html - Coming Soon</h1>
+		<h1>blogFullArticle.html - Coming Soon</h1>
 	</div>
+
+	<?php include "includes/connectdb.inc.php" ?>
+
 
 	<?php include "includes/footer.inc.php"; ?>

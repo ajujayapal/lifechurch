@@ -1,0 +1,3 @@
+#The following will be ignored in git
+
+admin/includes/connectdb.inc.php

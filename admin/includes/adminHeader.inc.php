@@ -17,7 +17,7 @@ case 'adults.php':
  $description = 'about description here';
  break;
 
-case 'blogs.php':
+case 'blog.php':
  $title= 'Life Church, Church of God, Bloomington MN - Pastor\'s Blog';
  $description = 'about description here';
  break;
@@ -94,7 +94,7 @@ case 'visionandmission.php':
 
 
 default:
- $title = 'Life Church, Church of God, Bloomington MN';
+ $title = 'Life Church, Church of God, Bloomington MN - ADMIN';
 }
  ?>
 
@@ -112,12 +112,15 @@ default:
 	<!-- <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 	<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/adminStyle.css">
+	
+  <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script>
 
 </head>
 
 <body>
 
 	<div class="page-header">
-		<h1>Life Church<small>, Bloomington</small></h1>
+		<h1>Life Church<small>, Bloomington - ADMIN</small></h1>
 	</div>
