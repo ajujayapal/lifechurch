@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<?php include "includes/adminHeader.inc.php"; ?>
-<?php include "includes/connectdb.inc.php"; ?>
+
+<?php require_once "includes/connectdb.inc.php"; ?>
 
 <?php
 
@@ -33,8 +33,8 @@
 									':postDate' => date('Y-m-d H:i:s')
 							));
 
-							//redirect to index page
-							header('Location: ../blogs.php?action=added');
+							//redirect to blogs page
+							header('Location: ../blogs.php?post_added');
 							exit;
 
 					} catch(PDOException $e) {
@@ -53,8 +53,8 @@
 	}
 	?>
 
+<?php include "includes/adminHeader.inc.php"; ?>
 
-	
 	
 <div class="container">
 
