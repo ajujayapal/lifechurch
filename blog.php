@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 	
-		<?php include "includes/header.inc.php"; ?>
+    <?php include "includes/header.inc.php"; ?>
 
-		<?php include "includes/navbar.inc.php"; ?>
+    <?php include "includes/navbar.inc.php"; ?>
 
-		<?php require_once "admin/includes/connectdb.inc.php"; ?>
+    <?php require_once "admin/includes/connectdb.inc.php"; ?>
 
 			
 	

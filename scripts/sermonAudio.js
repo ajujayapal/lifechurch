@@ -12,9 +12,7 @@ function audioToggle() {
 	
 	var clickedAudioBox = getClickedAudioBox(this);
 	var clickedAudio = getClickedAudio(this);
-	
-	alert(clickedAudio.duration);
-	
+		
 	if (!clickedAudio.paused) {
 		resetAudioElements();
 		clickedAudio.pause();

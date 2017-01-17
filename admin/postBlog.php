@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-
-<?php require_once "includes/connectdb.inc.php"; ?>
+<?php require_once "includes/connectdb.inc.php";?>
 
 <?php
 
@@ -34,10 +32,11 @@
 							));
 
 							//redirect to blogs page
-							header('Location: ../blogs.php?post_added');
+							header('Location: ../blog.php?post_added');
 							exit;
 
 					} catch(PDOException $e) {
+                            echo "<!DOCTYPE html>";
 							echo $e->getMessage();
 					}
 
@@ -52,6 +51,8 @@
 			}
 	}
 	?>
+
+<!DOCTYPE html>
 
 <?php include "includes/adminHeader.inc.php"; ?>
 
