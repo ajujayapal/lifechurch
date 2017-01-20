@@ -115,7 +115,32 @@ default:
 	<link rel="stylesheet" type="text/css" href="styles/adminStyle.css">
 	
   <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-  <script>tinymce.init({ selector:'textarea' });</script>
+  <script>tinymce.init({ 
+			selector: "textarea",
+			plugins: "image imagetools",
+			menubar: "file edit insert view format table tools",
+			toolbar: "undo redo | alignleft aligncenter alignright | bold italic | link image | styleselect",
+			imagetools_toolbar: "rotateleft rotateright | flipv fliph | editimage imageoptions",
+			style_formats: [
+			{
+					title: 'Image Left',
+					selector: 'img',
+					styles: {
+							'float': 'left', 
+							'margin': '0 10px 0 10px'
+					}
+			 },
+			 {
+					 title: 'Image Right',
+					 selector: 'img', 
+					 styles: {
+							 'float': 'right', 
+							 'margin': '0 0 10px 10px'
+					 }
+			 }
+		]
+		
+		});</script>
 
 </head>
 
