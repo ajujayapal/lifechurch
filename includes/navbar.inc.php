@@ -1,6 +1,6 @@
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+<nav class="navbar navbar-toggleable-sm navbar-light bg-faded justify-content-between">
     <!-- <div class="navbar-header"> -->
-
+<div class="container">
     <button class="navbar-toggler navbar-toggler-right" data-target="#lifechurch-navbar-collapse" data-toggle="collapse" type="button" aria-controls="lifechurch-navbar-collapse" aria-expanded="false" aria-label="Toggle Navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -64,4 +64,5 @@
 
         </ul>
     </div><!--lifechurch-navbar-collapse-->
+    </div>
 </nav>
