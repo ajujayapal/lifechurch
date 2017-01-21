@@ -4,7 +4,7 @@ html, body {
 }
 
 .page-header {
-  background-color: dodgerblue;
+  background-color: #6C648B;
   text-align: center;
   color: white;
   margin-top: 0;
@@ -12,14 +12,14 @@ html, body {
 }
 
 .navbar-light {
-  background-color: gainsboro;
+  background-color: #6BBAA7;
   border-color: gainsboro;
 }
 
 
 .carousel .item {
     height: 375px !important;
-    background-color: bisque !important;
+    background-color: #FBA100 !important;
 }
 
 .slide1 {
@@ -31,7 +31,6 @@ html, body {
 .slide2 {
     background: url("http://jayapalan.com/lifechurch/images/banner/banner_dognearpool_1200x315.png") no-repeat;
     background-size: cover;
-    
 }
 
 .slide3 {
@@ -45,11 +44,12 @@ html, body {
 */
 .widget {
   border-radius: 4px;
+	background-color: #DED7D6;
 }
 
 .widget-header {
     border-radius: 2px;
-    background-color: dodgerblue;
+    background-color: #6BBAA7;
     color: white;
     padding: .5rem;
 }
@@ -59,7 +59,7 @@ html, body {
 }
 
 .widget-outline {
-  border: 1px solid dodgerblue;
+  border: 1px solid #6BBAA7;
 }
 
 .widget-height {
@@ -87,7 +87,7 @@ html, body {
 /* Style override for bootstrap's built-in card elements */
 
 .card-header {
-	background-color: pink;
+	background-color: #6BBAA7;
 }
 
 .image-width {
@@ -111,7 +111,7 @@ html, body {
 
 footer {
   padding-top: 20px;
-  background-color: skyblue;
+  background-color: #6C648B;
   height: 60px;
   text-align: center;
 }
@@ -228,4 +228,22 @@ table td {
 
 .event-item a {
   font-size: 12px;
+}
+
+
+
+/* Bootstrap Overrides */
+
+.btn-primary {
+	background-color: #FBA100;
+	border-color: #FBA100;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+	color: #fff;
+	background-color: #6BBAA7;
+}
+
+.nav-pills .nav-link {
+	border-radius: 0;
 }
