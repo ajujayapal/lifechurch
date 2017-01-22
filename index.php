@@ -20,40 +20,40 @@
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item item active" style="background:url(images/banner/banner_yellowflower_1200x315.png);">
+            <div class="carousel-item item active" style="background-image:url(images/banner/banner_yellowflower_1200x315.png);">
 <!--                <img class="d-block img-fluid" alt="..." src="images/banner/banner_yellowflower_1200x315.png" height="100%">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
-            <div class="carousel-item item"  style="background:url(images/banner/banner_dognearpool_1200x315.png);">
+            <div class="carousel-item item"  style="background-image:url(images/banner/banner_dognearpool_1200x315.png);">
 <!--                <img class="d-block img-fluid" alt="..." src="images/banner/banner_dognearpool_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
-            <div class="carousel-item item"  style="background:url(images/banner/banner_hills_1200x315.png);">
+            <div class="carousel-item item"  style="background-image:url(images/banner/banner_hills_1200x315.png);">
 <!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
             
-            <div class="carousel-item item" style="background:url(images/banner/banner_lifechurchimage_001.png)">
+            <div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchimage_001.png);">
 <!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
             
-            <div class="carousel-item item" style="background:url(images/banner/banner_lifechurchimage_002.png);">
+            <div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchimage_002.png);">
 <!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
             
-            <div class="carousel-item item" style="background:url(images/banner/banner_lifechurchimage_003.png);">
+            <div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchimage_003.png);">
 <!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
