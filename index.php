@@ -14,27 +14,53 @@
             <li class="active" data-slide-to="0" data-target="#lifechurch-carousel"></li>
             <li data-slide-to="1" data-target="#lifechurch-carousel"></li>
             <li data-slide-to="2" data-target="#lifechurch-carousel"></li>
+            <li data-slide-to="3" data-target="#lifechurch-carousel"></li>
+            <li data-slide-to="4" data-target="#lifechurch-carousel"></li>
+            <li data-slide-to="5" data-target="#lifechurch-carousel"></li>
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item item slide1 active">
-                <img class="d-block img-fluid" alt="..." src="images/banner/banner_yellowflower_1200x315.png" height="100%">
+            <div class="carousel-item item active" style="background:url(images/banner/banner_yellowflower_1200x315.png) no-repeat; background-size: cover;">
+<!--                <img class="d-block img-fluid" alt="..." src="images/banner/banner_yellowflower_1200x315.png" height="100%">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
-            <div class="carousel-item item slide2">
-                <img class="d-block img-fluid" alt="..." src="images/banner/banner_dognearpool_1200x315.png">
+            <div class="carousel-item item"  style="background:url(images/banner/banner_dognearpool_1200x315.png) no-repeat; background-size: cover;">
+<!--                <img class="d-block img-fluid" alt="..." src="images/banner/banner_dognearpool_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
-            <div class="carousel-item item slide3">
-                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">
+            <div class="carousel-item item"  style="background:url(images/banner/banner_hills_1200x315.png) no-repeat; background-size: cover;">
+<!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
+            
+            <div class="carousel-item item" style="background:url(images/banner/banner_lifechurchimage_001.png) no-repeat; background-size: cover;">
+<!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
+                <div class="carousel-caption">
+                    <h3>Caption Text</h3>
+                </div>
+            </div>
+            
+            <div class="carousel-item item" style="background:url(images/banner/banner_lifechurchimage_002.png) no-repeat; background-size: cover;">
+<!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
+                <div class="carousel-caption">
+                    <h3>Caption Text</h3>
+                </div>
+            </div>
+            
+            <div class="carousel-item item" style="background:url(images/banner/banner_lifechurchimage_003.png) no-repeat;
+            background-size: cover;">
+<!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
+                <div class="carousel-caption">
+                    <h3>Caption Text</h3>
+                </div>
+            </div>
+            
         </div>
         <!-- Controls -->
         <a class="carousel-control-prev" href="#lifechurch-carousel" role="button" data-slide="prev">

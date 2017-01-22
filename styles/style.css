@@ -23,7 +23,7 @@ html, body {
 }
 
 .slide1 {
-    background: url("http://jayapalan.com/lifechurch/images/banner/banner_yellowflower_1200x315.png") no-repeat !important;
+    background: url("http://jayapalan.com/lifechurch/images/banner/banner_yellowflower_1200x315.png") no-repeat;
     background-size: cover;
     
 }
