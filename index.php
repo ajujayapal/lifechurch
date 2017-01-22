@@ -39,21 +39,21 @@
                 </div>
             </div>
             
-            <div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchimage_001.png);">
+            <div class="carousel-item item" style="background-image:url(https://goo.gl/xdfVnp);">
 <!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
             
-            <div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchimage_002.png);">
+            <div class="carousel-item item" style="background-image:url(https://goo.gl/PZMWcr);">
 <!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
                 </div>
             </div>
             
-            <div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchimage_003.png);">
+            <div class="carousel-item item" style="background-image:url(https://goo.gl/R3tblf);">
 <!--                <img class="d-block img-fluid" alt="... " src="images/banner/banner_hills_1200x315.png">-->
                 <div class="carousel-caption">
                     <h3>Caption Text</h3>
