@@ -22,6 +22,12 @@ html, body {
     background-color: #FBA100 !important;
 }
 
+.carousel-item {
+    background-repeat: no-repeat !importand;
+    background-size: 100% 100% !important;
+}
+
+/*
 .slide1 {
     background: url("http://jayapalan.com/lifechurch/images/banner/banner_yellowflower_1200x315.png") no-repeat;
     background-size: cover;
@@ -38,6 +44,10 @@ html, body {
     background-size: cover;
     
 }
+*/
+
+
+
 /* Widget styles -- Widgets have been used primarily on the homepage instead of cards
 	This is to accomplish fixed height and other minor style elements. Other pages have used cards instead.
 */
