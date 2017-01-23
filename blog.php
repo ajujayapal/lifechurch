@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-	
-    <?php include "includes/header.inc.php"; ?>
-
-    <?php include "includes/navbar.inc.php"; ?>
-
-    <?php require_once "admin/includes/connectdb.inc.php"; ?>
+<?php require_once "admin/includes/connectdb.inc.php"; ?>
 
 		<?php
 
@@ -27,8 +21,11 @@
 
 		</div>
 
-		<div class="card-block">{$row["post_text"]}</div>
-
+		<div class="card-block blog-cards">{$row["post_text"]}</div>
+		
+		<div class="card-footer">
+			<a class="btn btn-primary" href="blogFullArticle.php?post_id={$row["post_id"]}">Read Full Article</a>
+		</div>
 	</div>
 	
 EOD;
@@ -36,6 +33,16 @@ EOD;
 			}
 
 		?>
+
+
+
+<!DOCTYPE html>
+	
+    <?php include "includes/header.inc.php"; ?>
+
+    <?php include "includes/navbar.inc.php"; ?>
+
+    
 			
 	
 	<div class="container widget-box-area">
