@@ -13,12 +13,13 @@
 		if($row_count == 1)
 		{
 			$row = $stmt->fetch();
+            $formatted_date = date('F j, Y',strtotime($row['post_date']));
 			$blog_post = 
 <<<EOD
 	<div class="card mb-3">
 
 	<span class="card-header">
-		<h5>{$row["post_title"]}</h5><span class="text-muted small float-right">{$row["post_date"]}</span>
+		<h5>{$row["post_title"]}</h5><span class="text-muted small float-right">$formatted_date</span>
 	</span>
 
 	<div class="card-block">

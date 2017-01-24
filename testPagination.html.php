@@ -115,7 +115,7 @@
     <div class="container">
    
         <?php echo showPosts($db, 5); ?>
-		    <?php createPagination($number_of_rows, $rows_per_page); ?>
+        <?php createPagination($number_of_rows, $rows_per_page); ?>
 
         
     </div>

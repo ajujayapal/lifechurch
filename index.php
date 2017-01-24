@@ -9,13 +9,13 @@
 	$blog_list = '<ul class="list-unstyled">';
 
 	foreach ($result as $row) {
-
+        $formatted_date = date('F j, Y',strtotime($row['post_date']));
 		$blog_list .= 
 
 <<<EOD
 
 	<li><a href="blogFullArticle.php?post_id={$row["post_id"]}">{$row["post_title"]}</a></li>
-	<li class="text-muted small">{$row["post_date"]}</li>
+	<li class="text-muted small">$formatted_date</li>
 
 EOD;
 		}
