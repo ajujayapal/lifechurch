@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<?php include "includes/header.inc.php"; ?>
-<?php include "includes/navbar.inc.php"; ?>
 <?php require_once "admin/includes/connectdb.inc.php"; ?>
 <?php
 		
@@ -55,6 +52,12 @@ EOD;
 	
 	
 ?>
+
+
+
+<!DOCTYPE html>
+<?php include "includes/header.inc.php"; ?>
+<?php include "includes/navbar.inc.php"; ?>
 
 <div class="container widget-box-area">
 	<?php echo $blog_post; ?>
