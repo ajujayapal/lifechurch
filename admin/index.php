@@ -6,6 +6,9 @@
         <li>
             <a href="postBlog.php">Post Blog</a>
         </li>
+         <li>
+            <a href="enterEvent.php">Enter Event</a>
+        </li>
     </ul>
 </div>
 

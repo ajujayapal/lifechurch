@@ -2,6 +2,24 @@
 
 <?php
 	
+	function myTruncate($string, $limit, $break=".", $pad="...")
+	{
+		// return with no change if string is shorter than $limit
+		if(strlen($string) <= $limit) return $string;
+
+		// is $break present between $limit and the end of the string?
+		if(false !== ($breakpoint = strpos($string, $break, $limit))) {
+			if($breakpoint < strlen($string) - 1) {
+				$string = substr($string, 0, $breakpoint) . $pad;
+			}
+		}
+
+		return $string;
+	}
+ 
+
+
+
 	function getCurrentPage() {
 		if(isset($_GET['blog_page'])){
 			return $_GET['blog_page'];
@@ -41,7 +59,7 @@
 		
 				
 		$pagination = '<nav aria-label="Blog Page Navigation" class="mt-3">';
-		$pagination .= '<ul class="pagination">';
+		$pagination .= '<ul class="pagination justify-content-center">';
 		$pagination	.= '<li class="page-item' . $previousButtonClass . '">';
 		$pagination .= '<a class="page-link" href="?blog_page=' . $previousPage . '">Previous</a>';
 		$pagination .= '</li>';
@@ -81,11 +99,12 @@
 		{
 			//$post_titles .= "<strong>" . $row['post_title'] . "</strong><br>";
             
-            $formatted_date = date('F j, Y',strtotime($row['post_date']));
+			$formatted_date = date('F j, Y',strtotime($row['post_date']));
+			$truncated_post = myTruncate($row["post_text"], 350, $break=".", $pad=" ...");
+			
+			$blog_list .=
             
-            $blog_list .=
-            
-            <<<EOD
+<<<EOD
 
 <div class="card mb-3">
 
@@ -98,7 +117,7 @@
 
 	</div>
 
-	<div class="card-block blog-cards">{$row["post_text"]}</div>
+	<div class="card-block blog-cards">{$truncated_post}</div>
 
 	<div class="card-footer">
 		<a class="btn btn-primary" href="blogFullArticle.php?post_id={$row["post_id"]}">Read Full Article</a>

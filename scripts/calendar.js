@@ -1,5 +1,3 @@
-"use strict";
-
 var arrMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 var arrWeekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -9,32 +7,33 @@ var eleDateCells = document.getElementsByClassName("date-cell");
 var eleCalendarMonth = document.getElementById("calendar-month");
 var eleCalendarYear = document.getElementById("calendar-year");
 
-getCurrentCalendar()
+getCurrentCalendar();
 
 function display(str) {
+	"use strict";
 	document.getElementById("result1").innerHTML += str;
 }
 
 
 function getCurrentCalendar() {
+	"use strict";
 	/* function to generate calendar for current month and year. Should be default on page load */
-	var currentDate = new Date();
-	var curMonth = currentDate.getMonth();
-	var curYear = currentDate.getFullYear();
+	var currentDate = new Date(),
+		curMonth = currentDate.getMonth(),
+		curYear = currentDate.getFullYear();
 
-	getMonthYearCalendar(curYear, curMonth+1);
+	getMonthYearCalendar(curYear, curMonth + 1);
 }
 
 
 function getNextMonthCalendar() {
+	"use strict";
 	/* This is activated when the "Next" button in the calendar is clicked. */
-	var monthNumber = parseInt(eleCalendarMonth.dataset.monthNumber);
-	var yearNumber = parseInt(eleCalendarYear.dataset.yearNumber);
-	
-	var nextDate = new Date(yearNumber, monthNumber+1);
-	
-	var nextMonthNumber = nextDate.getMonth();
-	var nextYearNumber = nextDate.getFullYear();
+	var monthNumber = parseInt(eleCalendarMonth.dataset.monthNumber),
+			yearNumber = parseInt(eleCalendarYear.dataset.yearNumber),
+			nextDate = new Date(yearNumber, monthNumber+1),
+			nextMonthNumber = nextDate.getMonth(),
+			nextYearNumber = nextDate.getFullYear();
 	
 	getMonthYearCalendar(nextYearNumber, nextMonthNumber);
 	//alert(nextDate);
@@ -106,7 +105,8 @@ function getMonthYearCalendar(yy, mm){
 }
 
 function formatDateForMySql(objDate) {
-
+	"use strict";
+	
 	var y = objDate.getFullYear();
   var m = objDate.getMonth()+1;
   var d = objDate.getDate();
