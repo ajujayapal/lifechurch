@@ -109,7 +109,6 @@ default:
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-	<!-- <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 	<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="styles/adminStyle.css">
@@ -146,6 +145,6 @@ default:
 
 <body>
 
-	<div class="page-header">
+	<div class="page-header d-flex justify-content-center mb-3 py-3">
 		<h1>Life Church<small>, Bloomington - ADMIN</small></h1>
 	</div>

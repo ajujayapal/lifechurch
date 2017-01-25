@@ -1,6 +1,6 @@
-	<footer>
-		<span class="glyphicon glyphicon-copyright-mark"> </span>
-		<strong> Life Church - All Rights Reserved</strong>
+	<footer class="d-flex justify-content-center mt-3 p-4">
+		<span class="fa fa-copyright" aria-hidden="true"><strong> Life Church - All Rights Reserved</strong></span>
+		
 	</footer>
 
 

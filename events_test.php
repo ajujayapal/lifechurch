@@ -17,9 +17,6 @@ foreach($result as $row) {
 			<p><strong>Event Id: </strong><span>{$row["event_id"]}</span></p>
 			<p><strong>Event Title:  </strong><span>{$row["event_title"]}</span></p>
 			<p><strong>Start Time:  </strong><span>{$row["event_start"]}</span></p>
-			<p><strong>Recurrence:  </strong><span>{$row["recurrence_count"]}</span></p>
-			<p><strong>Period Frequency:  </strong><span>{$row["period_frequency"]}</span></p>
-			<p><strong>Period ID:  </strong><span>{$row["period_type_id"]}</span></p>
 			<p><strong>End Time:  </strong><span>{$row["event_end"]}</span></p>
 			<p><strong>Event Description:  </strong></p>
 			<p>{$row["event_description"]}</p>
