@@ -13,7 +13,7 @@
 		<div class="col-md-9"> <!-- outer column with I'm New and Guest Inquiries boxes nested. To make space for side-nav as a separate column -->
 
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-lg-6">
 				<div class="card mb-3">
 
 					<h5 class="card-header">I'm New</h5>
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-8">
+			<div class="col-lg-6">
 				<div class="card mb-3">
 
 				<h6 class="card-header">Guest Inquiries & Prayer Requests</h5>

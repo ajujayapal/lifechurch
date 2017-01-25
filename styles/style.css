@@ -261,3 +261,15 @@ table td {
 .nav-pills .nav-link {
 	border-radius: 0;
 }
+
+/* pagination link */
+
+.page-link:hover {
+	background-color: #FBA100;
+}
+
+.page-item.active .page-link{
+	background-color: #FBA100;
+	border-color: #FBA100;
+
+}

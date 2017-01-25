@@ -66,7 +66,14 @@
 
 
 		for($i = 1; $i <= $numOfPages; $i++) {
-			$pagination .=	'<li class="page-item">';
+			
+			if($i == $currentPage){
+				$pagination .= '<li class="page-item active">';
+			}
+			else {
+				$pagination .=	'<li class="page-item">';
+			}
+			
 			$pagination .= '<a class="page-link" href="?blog_page=' . $i . '">'. $i . '</a>';
 			$pagination .= '</li>';
 

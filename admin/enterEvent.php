@@ -125,11 +125,10 @@
 			<label for="periodTypeId" class="col-2 col-form-label">Period Type</label>
 			<div class="col-2">
 <!--				<input class="form-control" type="text" id="periodTypeId" name="periodTypeId">-->
-				<select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
-					<option selected value="DAY">daily</option>
-					<option value="WEEK">weekly</option>
-					<option value="MONTH">monthly</option>
-					<option value="YEAR">yearly</option>
+				<select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="periodTypeId" name="periodTypeId">
+					<option selected value="1">daily</option>
+					<option value="2">weekly</option>
+					<option value="3">monthly</option>
   			</select>
 			</div>
 			
