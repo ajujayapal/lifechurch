@@ -41,7 +41,7 @@
 			<div class="col-lg-6">
 				<div class="card mb-3">
 
-				<h6 class="card-header">Guest Inquiries & Prayer Requests</h5>
+				<h6 class="card-header">Guest Inquiries & Prayer Requests</h6>
 
 					<div class="card-block">
 
