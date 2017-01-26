@@ -1,6 +1,4 @@
-<?php require_once "includes/connectdb.inc.php";?>
-
-<?php
+<?php require_once "includes/connectdb.inc.php";
 
 	//if form has been submitted process it
 	if(isset($_POST['submit'])){

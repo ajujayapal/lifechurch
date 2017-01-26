@@ -1,6 +1,4 @@
-<?php require_once "admin/includes/connectdb.inc.php"; ?>
-
-<?php
+<?php require_once "admin/includes/connectdb.inc.php"; 
 	
 	function myTruncate($string, $limit, $break=".", $pad="...")
 	{
