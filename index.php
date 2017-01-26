@@ -81,87 +81,124 @@ EOD;
 				<!-- Content Area - widget boxes -->
 				<div class="container widget-box-area">
 					<div class="row">
-						<div class="col-md-4">
-							<div class="widget widget-outline widget-height">
-								<div class="widget-header">
-									<h4 class="widget-title">Welcome to Life Church</h4> </div>
-								<div class="widget-block"> <span>We are equipping people to...</span>
-									<ul>
-										<li>DISCOVER God’s calling for their lives,</li>
-										<li>DEVELOP their giftedness, and</li>
-										<li>DEMONSTRATE the fulfillment of God’s plan through them.</li>
-									</ul> <a href="visionandmission.php">Read More...</a> </div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="widget widget-outline widget-height">
-								<div class="widget-header">
-									<h4 class="widget-title">I'm New</h4> </div>
-								<div class="widget-block"> <span>We invite you to join us for a service, group, class or activity at LifeChurch.</span>
-									<br>
-									<br> <a href="imnew.php">Here’s what you can expect...</a> </div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="widget widget-outline widget-height">
-								<div class="widget-header">
-									<h4 class="widget-title">Connect With Us</h4> </div>
-								<div class="widget-block"> <span>Address:</span> <address>
-          West 108th Street<br>
-          Bloomington, Minnesota 55431<br>
-          <abbr title="Phone">Ph:</abbr> (952) 884-0594
-        </address>
-									<div class="input-group">
-										<input class="form-control" placeholder="Join our email list" type="text"> <span class="input-group-btn">
-            <button class="btn btn-primary" type="button">Join</button>
-          </span> </div>
+					<div class="col-md-8">
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="widget widget-outline widget-height">
+									<div class="widget-header">
+										<h4 class="widget-title">Welcome to Life Church</h4>
+									</div>
+									<div class="widget-block"> <span>We are equipping people to...</span>
+										<ul>
+											<li>DISCOVER God’s calling for their lives,</li>
+											<li>DEVELOP their giftedness, and</li>
+											<li>DEMONSTRATE the fulfillment of God’s plan through them.</li>
+										</ul> <a href="visionandmission.php">Read More...</a>
+									</div>
 								</div>
 							</div>
+							<div class="col-md-6">
+								<div class="widget widget-outline widget-height">
+									<div class="widget-header">
+										<h4 class="widget-title">I'm New</h4> </div>
+									<div class="widget-block"> <span>We invite you to join us for a service, group, class or activity at LifeChurch.</span>
+										<br>
+										<br> <a href="imnew.php">Here’s what you can expect...</a>
+									</div>
+								</div>
+							</div>
+
 						</div>
+						<!-- row 2-->
+						<div class="row mt-2">
+							<div class="col-md-6">
+								<div class="widget widget-outline widget-height">
+									<div class="widget-header">
+										<h4 class="widget-title">Upcoming Events</h4>
+									</div>
+									<div class="widget-block">
+										<ul class="list-unstyled">
+											<li> <a href="#">Thanksgiving Praise Service 7pm</a>
+												<br> <small>Wed, November 23, 2016</small></li>
+											<li> <a href="#">HAPPY THANKSGIVING!!</a>
+												<br> <small>Thu, November 24, 2016</small></li>
+											<li> <a href="#">Sunday Worship 10:00am</a>
+												<br> <small>Sun, November 27, 2016</small></li>
+											<li> <a href="#">Christmas choir practice 7pm</a>
+												<br> <small>Wed, November 30, 2016</small></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="widget widget-outline widget-height">
+									<div class="widget-header">
+										<h4 class="widget-title">Pastor's Blog</h4> </div>
+									<div class="widget-block">
+										<?php echo $blog_list; ?>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- row 3 -->
+
+						<div class="row mt-2">
+							<div class="col-md-6">
+								<div class="widget widget-outline widget-height">
+									<div class="widget-header">
+										<h4 class="widget-title">Connect With Us</h4> </div>
+											<div class="widget-block"> <span>Address:</span>
+												<address>
+													West 108th Street<br>
+													Bloomington, Minnesota 55431<br>
+													<abbr title="Phone">Ph:</abbr> (952) 884-0594
+												</address>
+												<div class="input-group">
+													<input class="form-control" placeholder="Join our email list" type="text">
+													<span class="input-group-btn"><button class="btn btn-primary" type="button">Join</button></span>
+												</div>
+											</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="widget widget-outline widget-height">
+									<div class="widget-header">
+										<h4 class="widget-title">Social Media</h4> </div>
+									<div class="widget-block">
+										<a href="https://www.facebook.com/LifeChurch.COG" target="_blank" class="social-icon">
+											<div class="facebook-container"> <span class="facebook-text">facebook</span> </div>
+										</a>
+										
+										<a href="https://twitter.com/LifeChurchMN" target="_blank" class="social-icon">
+											<div class="twitter-container"> <span class="twitter-text">twitter</span> </div>
+										</a>
+									</div>
+								</div>
+							</div>
+
 					</div>
-					<!-- row -->
-					<div class="row mt-2">
-						<div class="col-md-4">
-							<div class="widget widget-outline widget-height">
-								<div class="widget-header">
-									<h4 class="widget-title">Upcoming Events</h4> </div>
-								<div class="widget-block">
-									<ul class="list-unstyled">
-										<li> <a href="#">Thanksgiving Praise Service 7pm</a>
-											<br> <small>Wed, November 23, 2016</small></li>
-										<li> <a href="#">HAPPY THANKSGIVING!!</a>
-											<br> <small>Thu, November 24, 2016</small></li>
-										<li> <a href="#">Sunday Worship 10:00am</a>
-											<br> <small>Sun, November 27, 2016</small></li>
-										<li> <a href="#">Christmas choir practice 7pm</a>
-											<br> <small>Wed, November 30, 2016</small></li>
-									</ul>
+
+
+					</div> <!-- end of first column that has all the boxes/widgets except Twitter feed -->
+
+
+					<div class="col-md-4">
+								<div class="widget widget-outline widget-height">
+									<div class="widget-header">
+										<h4 class="widget-title">Twitter Feed</h4>
+									</div>
+									<div class="widget-block">
+										<a class="twitter-timeline" data-height="863" href="https://twitter.com/LifeChurchMN">Tweets by LifeChurchMN</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+									</div>
 								</div>
-							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="widget widget-outline widget-height">
-								<div class="widget-header">
-									<h4 class="widget-title">Pastor's Blog</h4> </div>
-								<div class="widget-block">
-									<?php echo $blog_list; ?>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="widget widget-outline widget-height">
-								<div class="widget-header">
-									<h4 class="widget-title">Social Media</h4> </div>
-								<div class="widget-block">
-									<a href="https://www.facebook.com/LifeChurch.COG" target="_blank" class="social-icon">
-										<div class="facebook-container"> <span class="facebook-text">facebook</span> </div>
-									</a>
-									<a href="https://twitter.com/LifeChurchMN" target="_blank" class="social-icon">
-										<div class="twitter-container"> <span class="twitter-text">twitter</span> </div>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			
+					</div> <!-- end of main outer .row -->
+					
+				</div> <!-- end of .container -->
+				
 				<?php include "includes/footer.inc.php"; ?>

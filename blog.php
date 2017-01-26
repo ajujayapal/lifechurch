@@ -18,8 +18,6 @@
 	}
  
 
-
-
 	function getCurrentPage() {
 		if(isset($_GET['blog_page'])){
 			return $_GET['blog_page'];

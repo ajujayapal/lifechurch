@@ -36,7 +36,7 @@
 							exit;
 
 					} catch(PDOException $e) {
-                            echo "<!DOCTYPE html>";
+							echo "<!DOCTYPE html>";
 							echo $e->getMessage();
 					}
 

@@ -54,6 +54,7 @@ html, body {
 .widget {
   border-radius: 4px;
 	background-color: #DED7D6;
+	margin-bottom: 10px;
 }
 
 .widget-header {

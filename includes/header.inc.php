@@ -118,6 +118,7 @@ default:
 
 <body>
 
-	<div class="page-header">
+	<div class="page-header d-flex">
 		<h1>Life Church<small>, Bloomington</small></h1>
+		<a href="admin" class="btn btn-secondary float-right" role="button" aria-disabled="true">Admin</a>
 	</div>
