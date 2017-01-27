@@ -1,4 +1,4 @@
-<?php require_once "admin/includes/connectEventDb.inc.php"; 
+<?php require_once "admin/includes/connectdb.inc.php"; 
 
 $stmt = $db->prepare("SELECT * FROM event_list");
 $stmt->execute();

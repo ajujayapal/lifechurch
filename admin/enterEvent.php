@@ -1,4 +1,4 @@
-<?php require_once("includes/connectEventDb.inc.php");
+<?php require_once("includes/connectdb.inc.php");
 
 	$default_date = date("Y-m-d"); //This is used to set the default Start Date value in html
 	
@@ -10,7 +10,7 @@
 		extract($_POST);
 
 		try {
-			$stmt = $db->prepare('INSERT INTO ajujayap_eventcalendar.event_list
+			$stmt = $db->prepare('INSERT INTO event_list
 			(event_title,
 			event_description,
 			event_start,
@@ -36,7 +36,7 @@
 				exit;
 		}
 		catch(PDOException $e) {
-			echo "<!DOCTYPE html>";
+			echo '<!DOCTYPE html>';
 			echo $e->getMessage();
 		}
 	}
@@ -114,5 +114,7 @@
 
 			</form>
 		</div>
+		
+		<script src="scripts/eventForm.js"></script>
 
 		<?php include "includes/adminFooter.inc.php"; ?>

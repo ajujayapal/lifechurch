@@ -18,7 +18,13 @@
 
 	function getCurrentPage() {
 		if(isset($_GET['blog_page'])){
-			return $_GET['blog_page'];
+			$blog_page = htmlspecialchars($_GET['blog_page'], ENT_QUOTES, 'UTF-8');
+			
+			if (! is_int($blog_page)) {
+				return 1;
+			}			
+			
+			return $blog_page;
 		}
 
 		else {
@@ -30,7 +36,6 @@
 	function createPagination($numRows, $rowsPerPage) {
 		
 		$currentPage = getCurrentPage();
-		
 		
 		$numOfPages = ceil($numRows/$rowsPerPage);
 		
@@ -146,9 +151,12 @@ EOD;
 <!DOCTYPE html>
 <?php include "includes/header.inc.php"; ?>
 <?php include "includes/navbar.inc.php"; ?>
+	
 	<div class="container widget-box-area">
-<!--		<?php //echo $blog_list ?>-->
+
 		<?php echo showPosts($db, 5); ?>
-        <?php createPagination($number_of_rows, $rows_per_page); ?>
+		
+    <?php createPagination($number_of_rows, $rows_per_page); ?>
+    
 	</div>
 <?php include "includes/footer.inc.php"; ?>

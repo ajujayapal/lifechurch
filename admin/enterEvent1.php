@@ -1,4 +1,4 @@
-<?php require_once "includes/connectEventDb.inc.php";
+<?php require_once "includes/connectdb.inc.php";
 
 	$default_date = date("Y-m-d"); 
 

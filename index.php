@@ -29,6 +29,7 @@ EOD;
 			<?php include "includes/navbar.inc.php"; ?>
 				<!--<script type="text/javascript" src="scripts/initializeMap.js"></script>-->
 				<!--<div class="container">-->
+<!--	<div class="container">-->
 				<div class="carousel slide" data-ride="carousel" id="lifechurch-carousel">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
@@ -38,6 +39,9 @@ EOD;
 						<li data-slide-to="3" data-target="#lifechurch-carousel"></li>
 						<li data-slide-to="4" data-target="#lifechurch-carousel"></li>
 						<li data-slide-to="5" data-target="#lifechurch-carousel"></li>
+						<li data-slide-to="6" data-target="#lifechurch-carousel"></li>
+						<li data-slide-to="7" data-target="#lifechurch-carousel"></li>
+						<li data-slide-to="8" data-target="#lifechurch-carousel"></li>
 					</ol>
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
@@ -71,11 +75,30 @@ EOD;
 							<div class="carousel-caption">
 								<h3>Caption Text</h3> </div>
 						</div>
+						
+						
+						<div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchImage_001.png);">
+							<div class="carousel-caption">
+								<h3>Caption Text</h3> </div>
+						</div>
+						
+						<div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchImage_002.png);">
+							<div class="carousel-caption">
+								<h3>Caption Text</h3> </div>
+						</div>
+						
+						<div class="carousel-item item" style="background-image:url(images/banner/banner_lifechurchImage_003.png);">
+							<div class="carousel-caption">
+								<h3>Caption Text</h3> </div>
+						</div>
+						
+						
 					</div>
 					<!-- Controls -->
 					<a class="carousel-control-prev" href="#lifechurch-carousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
 					<a class="carousel-control-next" href="#lifechurch-carousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 				</div>
+<!--</div>-->
 				<!-- Carousel -->
 				<!--</div>-->
 				<!-- Content Area - widget boxes -->

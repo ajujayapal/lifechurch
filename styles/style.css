@@ -19,12 +19,15 @@ html, body {
 
 .carousel .item {
     height: 375px !important;
-    background-color: #FBA100 !important;
+    background-color: #6BBAA7 !important;
 }
 
+
+
 .carousel-item {
-    background-repeat: no-repeat !importand;
-    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 100% !important;
+		background-position: center !important;
 }
 
 /*

@@ -9,6 +9,9 @@
          <li>
             <a href="enterEvent.php">Enter Event</a>
         </li>
+        <li>
+            <a href="uploadCarouselImage.php">Upload Carousel Image</a>
+        </li>
     </ul>
 </div>
 

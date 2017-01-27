@@ -23,7 +23,6 @@
 	</span>
 
 	<div class="card-block">
-		<p>Lorem Ipsum</p>
 		{$row["post_text"]}
 	</div>
 
